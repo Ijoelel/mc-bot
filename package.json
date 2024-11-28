@@ -1,0 +1,17 @@
+{
+    "name": "mc_bot",
+    "version": "1.0.0",
+    "description": "tes bot",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsx ./src/index.ts",
+        "dev": "node --inspect --loader tsx ./src/index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mineflayer": "^4.23.0",
+        "tsx": "^4.19.2"
+    }
+}

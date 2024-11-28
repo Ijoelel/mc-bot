@@ -1,0 +1,13 @@
+{
+    "client": {
+        "host": "fianarnatha.aternos.me",
+        "port": "43969",
+        "username": "Gabriel"
+    },
+    "logLevel": ["error", "log", "debug"],
+    "action": {
+        "commands": ["forward", "back", "left", "right", "jump"],
+        "holdDuration": 5000,
+        "retryDelay": 15000
+    }
+}
